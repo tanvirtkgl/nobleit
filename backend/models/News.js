@@ -7,7 +7,7 @@ const newsSchema = mongoose.Schema(
     image: {
       type: String,
       required: true,
-      default: "https://via.placeholder.com/300x200.png?text=No+Image",
+      default: "https://via.placeholder.com/300x2",
     },
     publishedAt: { type: Date, default: Date.now },
   },
